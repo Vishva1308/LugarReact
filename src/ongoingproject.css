@@ -1,0 +1,34 @@
+.ongingProject-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-vector{
+  display: flex;
+}
+
+.flex-vector img{
+  padding-left:10px
+}
+#scroll-container {
+  display: flex;
+  overflow: auto;
+  padding: 10px;
+}
+
+.carouselImages {
+  margin: 20px 20px 20px 0px;
+  width: 350px;
+}
+
+.relative {
+  position: relative;
+  top: -40px;
+  background-color: white;
+  left: 0px;
+  border: 3px solid #ffff;
+  margin: 0px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 5px 2px #d2d2d257;
+}

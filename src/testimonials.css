@@ -1,0 +1,64 @@
+#testimonials {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#testimonials .title {
+  font-size: 48px;
+  margin: 0px;
+}
+
+#testimonials .subTitle {
+  font-size: 18px;
+  color: #bdbdbd;
+}
+
+#testimonials .grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#testimonials .commentTitle {
+  font-size: 32px;
+}
+
+#testimonials .comment {
+  font-size: 24px;
+  color: #1e3240;
+  font-weight: 300px;
+}
+
+#testimonials .author {
+  font-size: 24px;
+  color: #1e3240;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+#testimonials .designation {
+  font-size: 18px;
+  color: #bdbdbd;
+}
+
+@media only screen and (max-width: 1080px){
+
+  #testimonials .grid {
+    grid-template-columns: 100%;
+  }
+  #testimonials .title {
+    font-size: 40px;
+  }
+  #testimonials .image img{
+    width: 100%;
+  }
+  #testimonials .ig img{
+   padding-top: 30px;
+  }
+  #testimonials .commentTitle {
+    font-size: 25px;
+  }
+  #testimonials .comment {
+    font-size: 18px;
+    
+  }
+}

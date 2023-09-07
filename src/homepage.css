@@ -1,0 +1,124 @@
+#homePage {
+  height: 770px;
+  background-image: url("./assets/Image.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-color: #afd4e2;
+}
+
+.menu-container {
+  padding-left: 160px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  font-size: 18px;
+}
+
+.details {
+  font-size: 14px;
+}
+
+.menu a {
+  padding-left: 80px;
+}
+.menu .details:hover{
+  text-decoration: underline;
+} 
+@media only screen and (max-width: 1250px) {
+  .menu-container {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menu {
+    display: none;
+  }
+}
+
+#homePage .arrowImg {
+  position: absolute;
+  top: 500px;
+  left: 630px;
+}
+
+#homePage .highlightLeft {
+  position: absolute;
+  top: 290px;
+  left: 820px;
+}
+
+#homePage .highlightRight {
+  position: absolute;
+  top: 170px;
+  left: 1220px;
+}
+
+@media only screen and (max-width: 1420px) {
+
+  #homePage .arrowImg,
+  #homePage .highlightLeft,
+  #homePage .highlightRight {
+    display: none;
+  }
+}
+
+#homePage .content {
+  padding-left: 160px;
+  width: 600px;
+}
+
+#homePage .title {
+  padding-top: 60px;
+  font-size: 90px;
+  margin-top: 70px;
+  font-weight: 600;
+  line-height: 108px;
+}
+
+#homePage .subTitle {
+  margin-bottom: 10px;
+  color: #1e3240;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.buttonProject {
+  padding: 18px 24px 18px 24px;
+  background-color: #1e3240;
+  color: aliceblue;
+  margin-top: 30px;
+  border: 2px solid #1e3240;
+}
+
+.buttonContact {
+  padding: 18px 24px 18px 24px;
+  background-color: transparent;
+  margin-left: 30px;
+  border: 2px solid #1e3240;
+}
+
+@media only screen and (max-width: 1250px) {
+  #homePage .content {
+    padding-left: 30px;
+    width: 600px;
+  }
+
+  #homePage .title {
+    padding-top: 60px;
+    font-size: 40px;
+    margin-top: 60px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #homePage .content {
+    width: inherit;
+    padding-right: 30px;
+  }
+}

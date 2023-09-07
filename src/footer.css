@@ -1,0 +1,90 @@
+#footerPage {
+  /* height: 400px; */
+  /* width: 1440px; */
+  background-color: #1e3240;
+  background-size: contain;
+  margin-top: 100px;
+}
+
+.end-container {
+  padding-left: 150px;
+  display: flex;
+  padding-top: 70px;
+  font-size: 18px;
+  color: white;
+  justify-content: space-between;
+}
+
+.end-container2 {
+  display: flex;
+}
+
+.end-container2 .footer-menu {
+  padding-right: 80px;
+}
+
+.contact {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.copyRight {
+  font-size: 12px;
+  font-weight: 400;
+  color: #bdbdbd;
+  padding-top: 100px;
+}
+
+.quickInfo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.info {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bdbdbd;
+}
+
+.legalLinks {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.media {
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 200px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.icon-container p {
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .end-container{
+    display: block;
+    padding-left: 50px;
+  }
+  .end-container2{
+    display: block;
+  }
+  .quickInfo {
+    margin-top: 50px;
+  }
+  .media {
+    margin-top: 50px;
+  }
+  .legalLinks {
+    margin-top: 50px;
+  }
+  .copyRight {
+    padding-left: 30px;
+  }
+  
+}
