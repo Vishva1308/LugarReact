@@ -32,7 +32,9 @@
   font-size: 12px;
   font-weight: 400;
   color: #bdbdbd;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  padding-left: 150px;
 }
 
 .quickInfo {
