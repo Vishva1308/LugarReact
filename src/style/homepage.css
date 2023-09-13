@@ -1,32 +1,13 @@
 #homePage {
   height: 770px;
-  background-image: url("./assets/Image.png");
+  background-image: url("../assets/Image.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
   background-color: #afd4e2;
 }
 
-.menu-container {
-  padding-left: 160px;
-  padding-right: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 30px;
-  font-size: 18px;
-}
 
-.details {
-  font-size: 14px;
-}
-
-.menu a {
-  padding-left: 80px;
-}
-.menu .details:hover{
-  text-decoration: underline;
-} 
 @media only screen and (max-width: 1250px) {
   .menu-container {
     padding-left: 30px;
